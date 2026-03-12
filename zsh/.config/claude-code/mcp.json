@@ -1,0 +1,26 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "gcloud auth application-default print-access-token >/dev/null 2>&1 || gcloud auth application-default login --quiet"
+          }
+        ]
+      }
+    ]
+  },
+  "env": {
+    "ANTHROPIC_VERTEX_PROJECT_ID": "claude-code-prod",
+    "CLAUDE_CODE_USE_VERTEX": "1",
+    "CLOUD_ML_REGION": "global"
+  },
+  "permissions": {
+    "allow": [
+      "Bash(/opt/homebrew/bin/chewie:*)",
+      "Bash(test:*)"
+    ]
+  }
+}

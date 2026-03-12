@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(echo $GHOSTTY_RESOURCES_DIR)",
+      "Bash(ghostty --help 2>&1 | head -50)",
+      "Bash(ghostty +list-actions 2>&1 | grep -i split)",
+      "Bash(ghostty +list-actions 2>&1)",
+      "Bash(stow -n zsh)",
+      "Bash(stow zsh:*)"
+    ],
+    "additionalDirectories": [
+      "/Users/ogomez"
+    ]
+  }
+}

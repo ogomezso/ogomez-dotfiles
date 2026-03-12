@@ -1,0 +1,25 @@
+/zsh/.config/zsh/custom
+**/.DS_Store
+
+# Auto-generated/machine-specific
+zsh/.config/gcloud/
+zsh/.config/envman/
+zsh/.config/coursier/
+zsh/.config/cagent/
+
+# Credentials and sensitive files
+**/credentials.json
+**/credentials.db
+**/credentials.properties
+**/credentials.properties.bak
+**/*_credentials.json
+**/adc.json
+
+# gcloud generated files
+zsh/.config/gcloud/virtenv/
+zsh/.config/gcloud/logs/
+zsh/.config/gcloud/access_tokens.db
+zsh/.config/gcloud/legacy_credentials/
+
+# gh sensitive files
+zsh/.config/gh/hosts.yml
