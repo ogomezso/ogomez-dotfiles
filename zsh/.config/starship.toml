@@ -25,15 +25,17 @@ disabled = false
 show_always = true
 
 [hostname]
-ssh_only = false
-format = "on [$hostname](bold purple) "
+ssh_only = true
+format = "[$hostname](bold purple) "
 disabled = false
 
 [directory]
 truncation_length = 3
 truncate_to_repo = true
+truncation_symbol = "…/"
 format = "in [$path]($style)[$read_only]($read_only_style) "
 style = "bold cyan"
+home_symbol = "~"
 
 [git_branch]
 symbol = " "

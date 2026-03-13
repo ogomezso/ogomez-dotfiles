@@ -6,6 +6,7 @@ zsh/.config/gcloud/
 zsh/.config/envman/
 zsh/.config/coursier/
 zsh/.config/cagent/
+.claude/
 
 # Credentials and sensitive files
 **/credentials.json
