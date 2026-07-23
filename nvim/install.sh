@@ -21,7 +21,7 @@ rm -rf ~/.config/nvim/lua/custom
 
 # Stow the custom config
 echo "🔗 Linking custom config from dotfiles..."
-cd ~/dotfiles
+cd ~/ogomez-dotfiles
 stow nvim
 
 echo "✅ NvChad installed successfully!"
