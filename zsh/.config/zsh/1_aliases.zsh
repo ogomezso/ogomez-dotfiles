@@ -3,6 +3,8 @@
 # Edit dotfiles
 alias dofi="cd ~/dotfiles && nvim"
 
+alias bid="bobide-insider"
+
 # ALIAS COMMANDS
 alias ls="eza --icons --group-directories-first"
 alias ll="eza --icons --group-directories-first -l"

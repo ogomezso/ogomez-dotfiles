@@ -6,7 +6,10 @@
       "Bash(ghostty +list-actions 2>&1 | grep -i split)",
       "Bash(ghostty +list-actions 2>&1)",
       "Bash(stow -n zsh)",
-      "Bash(stow zsh:*)"
+      "Bash(stow zsh:*)",
+      "Bash(zsh -i -c 'echo OK; alias bid; alias hh')",
+      "Bash(git -C /Users/ogomez/ogomez-dotfiles status --short zsh/)",
+      "Bash(git -C /Users/ogomez/ogomez-dotfiles diff --stat zsh/)"
     ],
     "additionalDirectories": [
       "/Users/ogomez"
